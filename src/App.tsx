@@ -18,16 +18,16 @@ const App = () => {
       <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
         <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
           <li>
-            <a href="#" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Work</a>
+            <a href="https://github.com/Jaysavvy" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">GitHub</a>
           </li>
           <li>
-            <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Background</a>
+            <a href="#about-me" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Background</a>
           </li>
           <li>
-            <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
+            <a href="#my-projects" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
           </li>
           <li>
-            <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+            <a href="https://www.linkedin.com/in/sehwatz/" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
           </li>
           <li>
           <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-1 mr-1 mb- dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Download Resume</button>
@@ -158,16 +158,16 @@ const App = () => {
             </div>
             <div className="mt-6 sm:mt-8 sm:flex sm:justify-center">
             <div className="rounded-md shadow">
-            <a href="#my-history"
+            <a href="#my-projects"
                     className=" px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-800 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
-                    Projects
+                    What've I been up to?
                 </a>
             </div>
             </div>
   </section>
 
-  <section id="my-history">
-  <h1 className="mb-1 mt-12 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">Browse my  <span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">recent projects </span>
+  <section id="my-projects" className=''>
+  <h1 className=" text-center mb-1 mt-12 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">Browse my  <span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">recent projects </span>
   </h1>
   </section>
 
@@ -226,7 +226,7 @@ const App = () => {
 
 
   <footer className=" bg-white  shadow m-4 dark:bg-gray-800">
-    <div className=" mx-auto max-w-screen-xl p-4 md:items-center md:justify-between">
+    <div className=" text-center p-4 md:items-center md:justify-between">
       <span className=" text-sm text-gray-500 sm:text-center dark:text-gray-400"> © 2023 by 
       <a href="#" className="text-center hover:underline"> Jason Love™</a>. All Rights Reserved.
     </span>
