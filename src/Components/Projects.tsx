@@ -1,24 +1,12 @@
-import './index.css'
-import './App.css'
-import './Components/Navbar'
-import Navbar from './Components/Navbar'
-import Hero from './Components/Hero'
-import Aboutsection from './Components/Aboutsection'
-import Projects from './Components/Projects'
 
-const App = () => {
-  return (
+const Projects = () => {
     <>
-  <Navbar/>
-  <Hero/>
-  <Aboutsection/>
-
-  <section id="my-projects" className=''>
+    <section id="my-projects" className=''>
   <h1 className=" text-center mb-1 mt-12 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">Browse my  <span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">recent projects </span>
   </h1>
   </section>
-
-  <section className="bg-white ">
+  
+    <section className="bg-white ">
     <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
         <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
             <a href="#" className="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-blue-400 mb-2">
@@ -70,21 +58,8 @@ const App = () => {
         </div>
     </div>
   </section>
-
-
-
-
-  <footer className=" bg-white  shadow m-4 dark:bg-gray-800">
-    <div className=" text-center p-4 md:items-center md:justify-between">
-      <span className=" text-sm text-gray-500 sm:text-center dark:text-gray-400"> © 2023 by 
-      <a href="#" className="text-center hover:underline"> Jason Love™</a>. All Rights Reserved.
-    </span>
-    </div>
-  </footer>
-
-
   </>
-  )
-  }
 
-export default App
+}
+
+export default Projects
