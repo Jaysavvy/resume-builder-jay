@@ -1,11 +1,12 @@
 
 const Projects = () => {
+    return(
     <>
     <section id="my-projects" className=''>
   <h1 className=" text-center mb-1 mt-12 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">Browse my  <span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">recent projects </span>
   </h1>
   </section>
-  
+
     <section className="bg-white ">
     <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
         <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
@@ -60,6 +61,6 @@ const Projects = () => {
   </section>
   </>
 
-}
+)}
 
 export default Projects
