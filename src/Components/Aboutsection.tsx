@@ -25,9 +25,8 @@ const Aboutsection = () => {
                             <ellipse cx="17" cy="16" rx="3" ry="3" transform="rotate(90 17 16)" stroke="#111827"
                                 stroke-width="2" stroke-linecap="round"></ellipse>
                         </svg>
-                        <h3 className="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">Education</h3>
-                        <p className="mt-6 text-base text-gray-600">Collaborate in realtime with other editors in a
-                            project. See what other editors are doing and edit even a simple text together</p>
+                        <h3 className="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">Continuous Learner</h3>
+                        <p className="mt-6 text-base text-gray-600">I actively seek opportunities to enhance my skills, whether through online courses, attending conferences, or contributing to open-source projects.</p>
                     </div>
                 </div>
             </div>
@@ -46,9 +45,8 @@ const Aboutsection = () => {
                             d="M3 14C3 11.4412 3 10.1618 3.61994 9.28042C3.77954 9.05351 3.96572 8.85041 4.17372 8.6763C4.98164 8 6.15442 8 8.5 8H15.5C17.8456 8 19.0184 8 19.8263 8.6763C20.0343 8.85041 20.2205 9.05351 20.3801 9.28042C21 10.1618 21 11.4412 21 14C21 16.5588 21 17.8382 20.3801 18.7196C20.2205 18.9465 20.0343 19.1496 19.8263 19.3237C19.0184 20 17.8456 20 15.5 20H8.5C6.15442 20 4.98164 20 4.17372 19.3237C3.96572 19.1496 3.77954 18.9465 3.61994 18.7196C3 17.8382 3 16.5588 3 14Z"
                             stroke="#111827" stroke-width="2"></path>
                     </svg>
-                    <h3 className="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">History of Edits</h3>
-                    <p className="mt-6 text-base text-gray-600">Go back and forth your history of changes and
-                        restore your designs to any point in time</p>
+                    <h3 className="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">Passionate Problem Solver</h3>
+                    <p className="mt-6 text-base text-gray-600">I thrive on tackling complex challenges and finding innovative solutions</p>
                 </div>
             </div>
             <div className="relative">
@@ -58,7 +56,8 @@ const Aboutsection = () => {
                     </div>
                 </div>
                 <div className="relative overflow-hidden bg-white shadow-md rounded-xl h-full">
-                    <div className="p-9"><svg className="w-12 h-12 mx-auto text-gray-400 sm:mx-0" viewBox="0 0 24 24"
+                    <div className="p-9">
+                        <svg className="w-12 h-12 mx-auto text-gray-400 sm:mx-0" viewBox="0 0 24 24"
                             fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M11 8L20 8" stroke="#111827" stroke-width="2" stroke-linecap="round"></path>
                             <path d="M4 16L14 16" stroke="#111827" stroke-width="2" stroke-linecap="round"></path>
@@ -67,9 +66,8 @@ const Aboutsection = () => {
                             <ellipse cx="17" cy="16" rx="3" ry="3" transform="rotate(90 17 16)" stroke="#111827"
                                 stroke-width="2" stroke-linecap="round"></ellipse>
                         </svg>
-                        <h3 className="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">Integrations</h3>
-                        <p className="mt-6 text-base text-gray-600">Step up your designs and workflow with
-                            integrations with your favorite tools such as mailchimp, slack, jira etc</p>
+                        <h3 className="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">Effective Problem Communicator</h3>
+                        <p className="mt-6 text-base text-gray-600">Beyond writing code, I excel in translating complex technical concepts into clear and understandable terms.</p>
                     </div>
                     
                 </div>
