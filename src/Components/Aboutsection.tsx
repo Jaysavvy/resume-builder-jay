@@ -87,7 +87,7 @@ const Aboutsection = () => {
             <div className="mt-6 sm:mt-8 sm:flex sm:justify-center">
             <div className="rounded-md shadow">
             <a href="#my-projects"
-                    className=" px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-800 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
+                    className=" w-3/3 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-800 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
                     What've I been up to?
                 </a>
             </div>
